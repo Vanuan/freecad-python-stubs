@@ -4,6 +4,8 @@ This meant to contain all the FreeCAD C++ to Python bindings, types for the Docu
 
 ## Generate sphinx documentation
 
+    # rename workaround, see https://github.com/readthedocs/sphinx-autoapi/issues/243
+    ./rename.sh
     # generate html
     ./docker/run.sh make clean html
 

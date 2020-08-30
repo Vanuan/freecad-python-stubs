@@ -1,8 +1,14 @@
 from WorkingPlane import Plane
 from typing import Iterator, Tuple, Any, Union, overload, Optional, List
 from . import Units
+#from .Base import *
 from FreeCADGui import View3DInventor, MDIView, ViewObject as VO
-from .ComplexGeoData import ComplexGeoData
+from ._ComplexGeoData import ComplexGeoData
+
+#__all__ = [
+#  "DocumentObject",
+#  "Base"
+#]
 
 class DocumentObject:
     def __init__(self): ...

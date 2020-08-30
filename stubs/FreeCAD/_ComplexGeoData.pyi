@@ -1,4 +1,4 @@
-from .Base.Persistence import Persistence
+from .Base import Persistence
 
 class ComplexGeoData(Persistence):
     """Father of all complex geometric data types"""

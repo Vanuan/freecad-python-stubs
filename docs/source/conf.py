@@ -14,7 +14,24 @@
 #import sys
 #sys.path.insert(0, os.path.abspath('../../stubs'))
 
-autoapi_dirs = ['../../stubs']
+_autoapi_base_dir = '../../py_stubs/'
+autoapi_dirs = [
+  _autoapi_base_dir + 'FreeCAD',
+  _autoapi_base_dir + 'FreeCADGui',
+  _autoapi_base_dir + 'Part',
+]
+#autoapi_options = [
+#  'members',
+#  'inherited-members',
+#  'undoc-members'
+#  'private-members',
+#  'special-members',
+#  'show-inheritance',
+#  'show-module-summary',
+#  'imported-members',
+#]
+autoapi_python_use_implicit_namespaces = True
+#autoapi_keep_files = True
 
 
 # -- Project information -----------------------------------------------------

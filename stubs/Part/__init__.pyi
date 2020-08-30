@@ -1,13 +1,17 @@
 import __FreeCADBase__ as Base
 from FreeCAD import Vector, GeoFeature
 from typing import Any, Sequence, overload, List
-from .TopoShape import TopoShape
+from ._TopoShape import TopoShape
 
 from draftutils.utils import tolerance
 
+#__all__ = [
+#  'TopoShape'
+#]
+
 # Mod/Part/App/AppPart.cpp
 
-# Part::TopoShapeCompoundPy;
+# Part::TopoShapeCompoundPy
 class Compound:
     def __init__(self, polygon): ...    
 

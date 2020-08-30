@@ -1,2 +1,4 @@
 __pycache__/
-docs/build
+py_stubs/
+docs/build/
+docs/source/autoapi/

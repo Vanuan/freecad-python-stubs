@@ -1,4 +1,4 @@
-from FreeCAD.ComplexGeoData import ComplexGeoData
+from FreeCAD import ComplexGeoData
 
 class TopoShape(ComplexGeoData):
     """TopoShape is the OpenCasCade topological shape wrapper.

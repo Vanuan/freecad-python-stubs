@@ -1,4 +1,4 @@
-from .PyObjectBase import PyObjectBase
+from . import PyObjectBase
 
 class BaseClass(PyObjectBase):
     """This is the base class"""

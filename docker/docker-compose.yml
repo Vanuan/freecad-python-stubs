@@ -2,6 +2,7 @@ version: '3'
 services:
   python:
     build: ./python
+    image: python3_image
     volumes:
       - ..:/src
     working_dir: '/src/docs'

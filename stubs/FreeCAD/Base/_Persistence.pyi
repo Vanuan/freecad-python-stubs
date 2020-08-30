@@ -1,4 +1,4 @@
-from .BaseClass import BaseClass
+from . import BaseClass
 
 class Persistence(BaseClass):
     """This is a persistence class"""
