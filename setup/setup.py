@@ -1,6 +1,6 @@
 import subprocess
 
 import os
-print (os.getcwd())
+raise Exception('%s %s' % (os.getcwd(), os.listdir('.')))
 
 rc = subprocess.call("rename.sh")
