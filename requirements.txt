@@ -1,1 +1,3 @@
 PySide2
+sphinx-autoapi
+sphinx-rtd-theme
