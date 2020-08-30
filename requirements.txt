@@ -1,3 +1,4 @@
 PySide2
+sphinx=3.2.1
 sphinx-autoapi
 sphinx-rtd-theme

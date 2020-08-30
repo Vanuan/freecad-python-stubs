@@ -43,6 +43,7 @@ author = 'vanuan'
 # The full version, including alpha/beta/rc tags
 release = '0.19.master'
 
+# master_doc = 'index'
 
 # -- General configuration ---------------------------------------------------
 
