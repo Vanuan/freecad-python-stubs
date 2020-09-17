@@ -1,3 +1,4 @@
+from typing import Sequence, Tuple
 from FreeCAD import ComplexGeoData
 
 class TopoShape(ComplexGeoData):
@@ -129,7 +130,7 @@ Sub-elements such as vertices, edges or faces are accessible as:
     Beginning from OCCT 6.8.1 a tolerance value can be specified."""
         ...
 
-    def multiFuse(self):
+    def multiFuse(self, tools: Sequence[TopoShape], tolerance=0.0) -> TopoShape:
         """multiFuse((tool1,tool2,...),[tolerance=0.0]) -> Shape
     
     Union of this and a given list of topo shapes.

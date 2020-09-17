@@ -1,3 +1,9 @@
 from ._Persistence import Persistence
-from .BaseClass import BaseClass
-from .PyObjectBase import PyObjectBase
+from ._BaseClass import BaseClass
+from ._PyObjectBase import PyObjectBase
+
+__all__ = [
+  'Persistence',
+  'BaseClass',
+  'PyObjectBase',
+]
